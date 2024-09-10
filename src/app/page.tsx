@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import { Profile } from "@/components/profile";
 import { Project } from "@/components/project";
 
