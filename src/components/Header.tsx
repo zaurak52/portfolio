@@ -1,24 +1,18 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+//import Link  from 'next/link';
 
-const Header = (props: { src: string }) => {
+const Header: React.FC = () => {
   return (
-    <div className="relative w-full h-40 mb-8">
-      <img
-        alt="icon"
-        className=""
-        src={props.src}
-        style={{
-          objectFit: "contain",
-        }}
-      />
-      <div className="absolute inset-0 bg-black bg-opacity-50 rounded-t-2xl" />
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-        <h1 className="text-5xl font-bold">Portfolio</h1>
-        <p className="mt-2 text-2xl font-medium">上樂大治朗</p>
-        <p>芝浦工業大学　情報工学科4年　実世界インタラクション研究室</p>
-      </div>
-    </div>
+    // <header className="flex justify-between items-center p-4 bg-gray-400 rounded-lg">
+    //   <div className="text-8xl font-bold">My Portfolio</div>
+    //   {/* <nav className="flex space-x-4">
+    //             <Link href="/" className="hover:text-blue-500">Home</Link>
+    //             <Link href="/project" className="hover:text-blue-500">Works</Link>
+    //             <Link href="/about" className="hover:text-blue-500">About</Link>
+    //             <Link href="/contact" className="hover:text-blue-500">Contact</Link>
+    //         </nav> */}
+    // </header>
+    <div className="text-7xl font-bold text-center">Portfolio</div>
   );
 };
 
